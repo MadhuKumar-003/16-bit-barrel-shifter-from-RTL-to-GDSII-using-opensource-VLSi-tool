@@ -1,0 +1,486 @@
+$date
+	Sun Jun 28 22:45:04 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_barrel_shifter_16bit $end
+$var wire 16 ! dout [15:0] $end
+$var reg 1 " clk $end
+$var reg 16 # din [15:0] $end
+$var reg 2 $ mode [1:0] $end
+$var reg 1 % rst_n $end
+$var reg 4 & shift_amt [3:0] $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 16 ' din [15:0] $end
+$var wire 2 ( mode [1:0] $end
+$var wire 1 % rst_n $end
+$var wire 4 ) shift_amt [3:0] $end
+$var wire 16 * stage3_out [15:0] $end
+$var wire 16 + stage2_out [15:0] $end
+$var wire 16 , stage1_out [15:0] $end
+$var wire 16 - stage0_out [15:0] $end
+$var wire 1 . sign_bit $end
+$var reg 16 / dout [15:0] $end
+$var reg 16 0 r_din [15:0] $end
+$var reg 2 1 r_mode [1:0] $end
+$var reg 4 2 r_shift_amt [3:0] $end
+$scope begin stage0_mux_gen[0] $end
+$var parameter 2 3 i $end
+$upscope $end
+$scope begin stage0_mux_gen[1] $end
+$var parameter 2 4 i $end
+$upscope $end
+$scope begin stage0_mux_gen[2] $end
+$var parameter 3 5 i $end
+$upscope $end
+$scope begin stage0_mux_gen[3] $end
+$var parameter 3 6 i $end
+$upscope $end
+$scope begin stage0_mux_gen[4] $end
+$var parameter 4 7 i $end
+$upscope $end
+$scope begin stage0_mux_gen[5] $end
+$var parameter 4 8 i $end
+$upscope $end
+$scope begin stage0_mux_gen[6] $end
+$var parameter 4 9 i $end
+$upscope $end
+$scope begin stage0_mux_gen[7] $end
+$var parameter 4 : i $end
+$upscope $end
+$scope begin stage0_mux_gen[8] $end
+$var parameter 5 ; i $end
+$upscope $end
+$scope begin stage0_mux_gen[9] $end
+$var parameter 5 < i $end
+$upscope $end
+$scope begin stage0_mux_gen[10] $end
+$var parameter 5 = i $end
+$upscope $end
+$scope begin stage0_mux_gen[11] $end
+$var parameter 5 > i $end
+$upscope $end
+$scope begin stage0_mux_gen[12] $end
+$var parameter 5 ? i $end
+$upscope $end
+$scope begin stage0_mux_gen[13] $end
+$var parameter 5 @ i $end
+$upscope $end
+$scope begin stage0_mux_gen[14] $end
+$var parameter 5 A i $end
+$upscope $end
+$scope begin stage0_mux_gen[15] $end
+$var parameter 5 B i $end
+$upscope $end
+$scope begin stage1_mux_gen[0] $end
+$var parameter 2 C i $end
+$upscope $end
+$scope begin stage1_mux_gen[1] $end
+$var parameter 2 D i $end
+$upscope $end
+$scope begin stage1_mux_gen[2] $end
+$var parameter 3 E i $end
+$upscope $end
+$scope begin stage1_mux_gen[3] $end
+$var parameter 3 F i $end
+$upscope $end
+$scope begin stage1_mux_gen[4] $end
+$var parameter 4 G i $end
+$upscope $end
+$scope begin stage1_mux_gen[5] $end
+$var parameter 4 H i $end
+$upscope $end
+$scope begin stage1_mux_gen[6] $end
+$var parameter 4 I i $end
+$upscope $end
+$scope begin stage1_mux_gen[7] $end
+$var parameter 4 J i $end
+$upscope $end
+$scope begin stage1_mux_gen[8] $end
+$var parameter 5 K i $end
+$upscope $end
+$scope begin stage1_mux_gen[9] $end
+$var parameter 5 L i $end
+$upscope $end
+$scope begin stage1_mux_gen[10] $end
+$var parameter 5 M i $end
+$upscope $end
+$scope begin stage1_mux_gen[11] $end
+$var parameter 5 N i $end
+$upscope $end
+$scope begin stage1_mux_gen[12] $end
+$var parameter 5 O i $end
+$upscope $end
+$scope begin stage1_mux_gen[13] $end
+$var parameter 5 P i $end
+$upscope $end
+$scope begin stage1_mux_gen[14] $end
+$var parameter 5 Q i $end
+$upscope $end
+$scope begin stage1_mux_gen[15] $end
+$var parameter 5 R i $end
+$upscope $end
+$scope begin stage2_mux_gen[0] $end
+$var parameter 2 S i $end
+$upscope $end
+$scope begin stage2_mux_gen[1] $end
+$var parameter 2 T i $end
+$upscope $end
+$scope begin stage2_mux_gen[2] $end
+$var parameter 3 U i $end
+$upscope $end
+$scope begin stage2_mux_gen[3] $end
+$var parameter 3 V i $end
+$upscope $end
+$scope begin stage2_mux_gen[4] $end
+$var parameter 4 W i $end
+$upscope $end
+$scope begin stage2_mux_gen[5] $end
+$var parameter 4 X i $end
+$upscope $end
+$scope begin stage2_mux_gen[6] $end
+$var parameter 4 Y i $end
+$upscope $end
+$scope begin stage2_mux_gen[7] $end
+$var parameter 4 Z i $end
+$upscope $end
+$scope begin stage2_mux_gen[8] $end
+$var parameter 5 [ i $end
+$upscope $end
+$scope begin stage2_mux_gen[9] $end
+$var parameter 5 \ i $end
+$upscope $end
+$scope begin stage2_mux_gen[10] $end
+$var parameter 5 ] i $end
+$upscope $end
+$scope begin stage2_mux_gen[11] $end
+$var parameter 5 ^ i $end
+$upscope $end
+$scope begin stage2_mux_gen[12] $end
+$var parameter 5 _ i $end
+$upscope $end
+$scope begin stage2_mux_gen[13] $end
+$var parameter 5 ` i $end
+$upscope $end
+$scope begin stage2_mux_gen[14] $end
+$var parameter 5 a i $end
+$upscope $end
+$scope begin stage2_mux_gen[15] $end
+$var parameter 5 b i $end
+$upscope $end
+$scope begin stage3_mux_gen[0] $end
+$var parameter 2 c i $end
+$upscope $end
+$scope begin stage3_mux_gen[1] $end
+$var parameter 2 d i $end
+$upscope $end
+$scope begin stage3_mux_gen[2] $end
+$var parameter 3 e i $end
+$upscope $end
+$scope begin stage3_mux_gen[3] $end
+$var parameter 3 f i $end
+$upscope $end
+$scope begin stage3_mux_gen[4] $end
+$var parameter 4 g i $end
+$upscope $end
+$scope begin stage3_mux_gen[5] $end
+$var parameter 4 h i $end
+$upscope $end
+$scope begin stage3_mux_gen[6] $end
+$var parameter 4 i i $end
+$upscope $end
+$scope begin stage3_mux_gen[7] $end
+$var parameter 4 j i $end
+$upscope $end
+$scope begin stage3_mux_gen[8] $end
+$var parameter 5 k i $end
+$upscope $end
+$scope begin stage3_mux_gen[9] $end
+$var parameter 5 l i $end
+$upscope $end
+$scope begin stage3_mux_gen[10] $end
+$var parameter 5 m i $end
+$upscope $end
+$scope begin stage3_mux_gen[11] $end
+$var parameter 5 n i $end
+$upscope $end
+$scope begin stage3_mux_gen[12] $end
+$var parameter 5 o i $end
+$upscope $end
+$scope begin stage3_mux_gen[13] $end
+$var parameter 5 p i $end
+$upscope $end
+$scope begin stage3_mux_gen[14] $end
+$var parameter 5 q i $end
+$upscope $end
+$scope begin stage3_mux_gen[15] $end
+$var parameter 5 r i $end
+$upscope $end
+$upscope $end
+$scope task check_output $end
+$var reg 4 s active_amt [3:0] $end
+$var reg 16 t active_input [15:0] $end
+$var reg 2 u active_mode [1:0] $end
+$var reg 16 v expected_val [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 r
+b1110 q
+b1101 p
+b1100 o
+b1011 n
+b1010 m
+b1001 l
+b1000 k
+b111 j
+b110 i
+b101 h
+b100 g
+b11 f
+b10 e
+b1 d
+b0 c
+b1111 b
+b1110 a
+b1101 `
+b1100 _
+b1011 ^
+b1010 ]
+b1001 \
+b1000 [
+b111 Z
+b110 Y
+b101 X
+b100 W
+b11 V
+b10 U
+b1 T
+b0 S
+b1111 R
+b1110 Q
+b1101 P
+b1100 O
+b1011 N
+b1010 M
+b1001 L
+b1000 K
+b111 J
+b110 I
+b101 H
+b100 G
+b11 F
+b10 E
+b1 D
+b0 C
+b1111 B
+b1110 A
+b1101 @
+b1100 ?
+b1011 >
+b1010 =
+b1001 <
+b1000 ;
+b111 :
+b110 9
+b101 8
+b100 7
+b11 6
+b10 5
+b1 4
+b0 3
+$end
+#0
+$dumpvars
+bx v
+bx u
+bx t
+bx s
+b0 2
+b0 1
+b0 0
+b0 /
+0.
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5000
+1"
+#10000
+0"
+#15000
+1"
+1%
+#20000
+0"
+#25000
+b11110000 *
+b11110000 +
+b1111000000001111 ,
+b1111000000001111 -
+1.
+b100 2
+b1111000000001111 0
+1"
+b100 &
+b100 )
+b1111000000001111 #
+b1111000000001111 '
+#30000
+0"
+#35000
+b11110000 !
+b11110000 /
+b0 u
+b100 s
+b1111000000001111 t
+b11110000 v
+1"
+#40000
+0"
+#45000
+1"
+#46000
+b1 $
+b1 (
+b1000 &
+b1000 )
+b1111111100000000 #
+b1111111100000000 '
+#50000
+0"
+#55000
+b1111111100000000 ,
+b11111111 *
+b1111111100000000 +
+b1111111100000000 -
+b1 1
+b1000 2
+b1111111100000000 0
+1"
+#60000
+0"
+#65000
+b11111111 !
+b11111111 /
+b1 u
+b1000 s
+b1111111100000000 t
+b11111111 v
+1"
+#70000
+0"
+#75000
+1"
+#76000
+b10 $
+b10 (
+b100 &
+b100 )
+b1111000000000000 #
+b1111000000000000 '
+#80000
+0"
+#85000
+b1111000000000000 ,
+b1111111100000000 +
+b1111111100000000 *
+b1111000000000000 -
+b10 1
+b100 2
+b1111000000000000 0
+1"
+#90000
+0"
+#95000
+b1111111100000000 !
+b1111111100000000 /
+b10 u
+b100 s
+b1111000000000000 t
+b1111111100000000 v
+1"
+#100000
+0"
+#105000
+1"
+#106000
+b11 $
+b11 (
+b1111 #
+b1111 '
+#110000
+0"
+#115000
+b1111000000000000 *
+b1111000000000000 +
+b1111 ,
+b1111 -
+0.
+b11 1
+b1111 0
+1"
+#120000
+0"
+#125000
+b1111000000000000 !
+b1111000000000000 /
+b11 u
+b1111 t
+b1111000000000000 v
+1"
+#130000
+0"
+#135000
+1"
+#136000
+b0 $
+b0 (
+b0 &
+b0 )
+b1001000110100 #
+b1001000110100 '
+#140000
+0"
+#145000
+b1001000110100 *
+b1001000110100 ,
+b1001000110100 +
+b1001000110100 -
+b0 1
+b0 2
+b1001000110100 0
+1"
+#150000
+0"
+#155000
+b1001000110100 !
+b1001000110100 /
+b0 u
+b0 s
+b1001000110100 t
+b1001000110100 v
+1"
+#160000
+0"
+#165000
+1"
+#166000
